@@ -1,6 +1,6 @@
-package com.lessons.beanscope.impl.engine;
+package com.lessons.lesson_1.impl.engine;
 
-import com.lessons.beanscope.interfaces.Engine;
+import com.lessons.lesson_1.interfaces.Engine;
 
 public class Vitals implements Engine {
     public void run() {

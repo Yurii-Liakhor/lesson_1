@@ -1,6 +1,6 @@
-package com.lessons.beanscope.impl.tire;
+package com.lessons.lesson_1.impl.tire;
 
-import com.lessons.beanscope.interfaces.Tire;
+import com.lessons.lesson_1.interfaces.Tire;
 
 public class Rosava implements Tire {
     @Override

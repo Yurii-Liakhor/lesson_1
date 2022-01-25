@@ -1,10 +1,10 @@
-package com.lessons.beanscope;
+package com.lessons.lesson_1;
 
 
-import com.lessons.beanscope.utils.Utils;
+import com.lessons.lesson_1.utils.Utils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.lessons.beanscope.impl.car.Batmobile;
+import com.lessons.lesson_1.impl.car.Batmobile;
 
 public class Main {
     public static void main(String[] args) {

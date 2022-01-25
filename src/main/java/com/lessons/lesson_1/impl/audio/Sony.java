@@ -1,6 +1,6 @@
-package com.lessons.beanscope.impl.audio;
+package com.lessons.lesson_1.impl.audio;
 
-import com.lessons.beanscope.interfaces.AudioSystem;
+import com.lessons.lesson_1.interfaces.AudioSystem;
 
 public class Sony implements AudioSystem {
     public void playCD() {

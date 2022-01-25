@@ -1,4 +1,4 @@
-package com.lessons.beanscope.utils;
+package com.lessons.lesson_1.utils;
 
 public class Utils {
 

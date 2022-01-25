@@ -1,6 +1,6 @@
-package com.lessons.beanscope.impl.navigation;
+package com.lessons.lesson_1.impl.navigation;
 
-import com.lessons.beanscope.interfaces.NavigationSystem;
+import com.lessons.lesson_1.interfaces.NavigationSystem;
 
 
 public class Garmin  implements NavigationSystem {

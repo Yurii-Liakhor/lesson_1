@@ -1,9 +1,9 @@
-package com.lessons.beanscope.impl.car;
+package com.lessons.lesson_1.impl.car;
 
-import com.lessons.beanscope.interfaces.Engine;
-import com.lessons.beanscope.interfaces.Tire;
+import com.lessons.lesson_1.interfaces.Engine;
+import com.lessons.lesson_1.interfaces.Tire;
 import lombok.Data;
-import com.lessons.beanscope.interfaces.Car;
+import com.lessons.lesson_1.interfaces.Car;
 
 @Data
 public class Batmobile implements Car {

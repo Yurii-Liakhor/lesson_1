@@ -1,17 +1,18 @@
-package com.lessons.beanscope.impl.audio;
+package com.lessons.lesson_1.impl.audio;
 
-import com.lessons.beanscope.interfaces.AudioSystem;
+import com.lessons.lesson_1.interfaces.AudioSystem;
 
-public class Alpine implements AudioSystem{
+public class Kenwood implements AudioSystem {
+
     public void playCD() {
         System.out.println("*****************************");
-        System.out.println("Music from alpine CD");
+        System.out.println("Music from kenwood CD");
         System.out.println("*****************************");
     }
 
     public void playRadio() {
         System.out.println("*****************************");
-        System.out.println("Radio from alpine Radio");
+        System.out.println("Music from kenwood CD");
         System.out.println("*****************************");
     }
 }

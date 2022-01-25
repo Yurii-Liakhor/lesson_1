@@ -3,12 +3,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
-    <bean id="premiorry" class="com.lessons.beanscope.impl.tire.Premiorry"/>
-    <bean id="rosava" class="com.lessons.beanscope.impl.tire.Rosava"/>
-    <bean id="forte" class="com.lessons.beanscope.impl.engine.Forte"/>
-    <bean id="vitals" class="com.lessons.beanscope.impl.engine.Vitals"/>
+    <bean id="premiorry" class="com.lessons.lesson_1.impl.tire.Premiorry"/>
+    <bean id="rosava" class="com.lessons.lesson_1.impl.tire.Rosava"/>
+    <bean id="forte" class="com.lessons.lesson_1.impl.engine.Forte"/>
+    <bean id="vitals" class="com.lessons.lesson_1.impl.engine.Vitals"/>
 
-    <bean id="batmobile" class="com.lessons.beanscope.impl.car.Batmobile" scope="prototype">
+    <bean id="batmobile" class="com.lessons.lesson_1.impl.car.Batmobile" scope="prototype">
         <constructor-arg ref="rosava"/>
         <constructor-arg ref="forte"/>
     </bean>
