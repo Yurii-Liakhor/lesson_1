@@ -3,28 +3,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
-<!--    <bean id="audi" class="spring.impl.car.Audi"/>-->
-<!--    <bean id="sony" class="spring.impl.audio.Sony"/>-->
-<!--    <bean id="alpine" class="spring.impl.audio.Alpine"/>-->
-<!--    <bean id="kenwood" class="spring.impl.audio.Kenwood"/>-->
+    <bean id="premiorry" class="com.lessons.beanscope.impl.tire.Premiorry"/>
+    <bean id="rosava" class="com.lessons.beanscope.impl.tire.Rosava"/>
+    <bean id="forte" class="com.lessons.beanscope.impl.engine.Forte"/>
+    <bean id="vitals" class="com.lessons.beanscope.impl.engine.Vitals"/>
 
-    <!--    используем setter -->
-
-<!--    <bean id="audi2" class="spring.impl.car.Audi">-->
-<!--        <property name="audioSystem" ref="alpine"/>-->
-<!--    </bean>-->
-
-
-    <!--    используем конструктор -->
-
-<!--    <bean id="sony" class="spring.impl.audio.Sony"/>-->
-<!--    <bean id="navitel" class="spring.impl.navigation.Navitel"/>-->
-
-<!--    <bean id="audi3" class="spring.impl.car.Audi" scope="prototype">-->
-<!--        <constructor-arg ref="sony"/>-->
-<!--        <constructor-arg ref="navitel"/>-->
-<!--    </bean>-->
-
-    <bean id="batmobile" class="spring.impl.car.Batmobile"/>
+    <bean id="batmobile" class="com.lessons.beanscope.impl.car.Batmobile" scope="prototype">
+        <constructor-arg ref="rosava"/>
+        <constructor-arg ref="forte"/>
+    </bean>
 
 </beans>
